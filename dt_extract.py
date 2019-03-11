@@ -57,7 +57,7 @@ def log_setup(app_name, log_path):
     return logger
 
 
-def create_dataframe(sqlc, json):
+def create_dataframe(sqlc, json, logger):
     """
     Creating a dataframe from a JSON file
     """
@@ -66,7 +66,7 @@ def create_dataframe(sqlc, json):
     return sqlc.read.option("multiline", "true").json(json)
 
 
-def explode_columns(df):
+def explode_columns(df, logger):
     """
     Exploding the columns and renaming them to a new dataframe
     """
@@ -105,7 +105,7 @@ def explode_columns(df):
     return df_cols_exp
 
 
-def split_columns(df):
+def split_columns(df, logger):
     """
     Splitting columns timestamp in two columns 'date' and 'time'
     """
@@ -120,7 +120,7 @@ def split_columns(df):
     return df_dt_tm
 
 
-def remove_columns(df):
+def remove_columns(df, logger):
     """
     Removing the columns that are not necessary
     """
@@ -207,7 +207,7 @@ def csv_writer(row):
             })
 
 
-def save_to_csv(df):
+def save_to_csv(df, logger):
     """
     Saving the data in a CSV file to the next steps
     """
@@ -225,31 +225,34 @@ def save_to_csv(df):
         csv_writer(each_row)
 
 
-def main(sqlc):
+def main(sqlc, logger):
     """
     Here is where everything happens
     """
     # Creating the dataframe
-    df_json = create_dataframe(sqlc, data_path)
+    df_json = create_dataframe(sqlc, data_path, logger)
 
     # Creating a new dataframe with all columns exploded
-    df_cols_exp = explode_columns(df_json)
+    df_cols_exp = explode_columns(df_json, logger)
 
     # Splitting columns timestamp in two columns 'date' and 'time'
-    df_dt_tm = split_columns(df_cols_exp)
+    df_dt_tm = split_columns(df_cols_exp, logger)
 
     # Removing the columns that are not necessary
-    df_no_param = remove_columns(df_dt_tm)
+    df_no_param = remove_columns(df_dt_tm, logger)
 
     # Show the values
     df_no_param.show()
     df_no_param.printSchema()
 
     # Saving the final result into a CSV file
-    save_to_csv(df_no_param)
+    save_to_csv(df_no_param, logger)
 
 
-if __name__ == '__main__':
+def run():
+    """
+    Running all tasks
+    """
     # Starting the logger
     logger = log_setup(app_name, log_path)
     logger.info("Starting the process . . .")
@@ -268,7 +271,7 @@ if __name__ == '__main__':
     sqlc = SQLContext(sc)
 
     # Calling the main function
-    main(sqlc)
+    main(sqlc, logger)
 
     # Closing the SparkContext
     logger.info("Closing the SparkContext . . .")
@@ -277,3 +280,7 @@ if __name__ == '__main__':
     # Finishing this process
     logger.info("Process has been finished!")
     print("Process has been finished with success!")
+
+
+if __name__ == '__main__':
+    run()
