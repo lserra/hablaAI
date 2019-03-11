@@ -15,18 +15,18 @@
 # ==============================================================================
 
 # Referencing all the libraries used into the code
+import csv
 import logging
 import logging.handlers
 import os
 
-# from datetime import datetime
 from pyspark import SparkConf, SparkContext
 from pyspark.sql import SQLContext
 from pyspark.sql import functions as F
 
 # Defining the immutable values
-data_dir = "/home/lserra/PycharmProjects/hablaAI/"
-data_file = "data/just_ten_rows.json"
+data_dir = "/home/lserra/PycharmProjects/hablaAI/data/"
+data_file = "just_ten_rows.json"
 data_path = os.path.join(data_dir, data_file)
 
 log_dir = "/home/lserra/PycharmProjects/hablaAI/logs/"
@@ -34,6 +34,7 @@ log_file = "ETL_hablaAI.log"
 log_path = os.path.join(log_dir, log_file)
 
 app_name = "ETL_HablaAI"
+
 
 def log_setup(app_name, log_path):
     """
@@ -56,7 +57,7 @@ def log_setup(app_name, log_path):
     return logger
 
 
-def creating_df(sqlc, json):
+def create_dataframe(sqlc, json):
     """
     Creating a dataframe from a JSON file
     """
@@ -65,7 +66,7 @@ def creating_df(sqlc, json):
     return sqlc.read.option("multiline", "true").json(json)
 
 
-def exploding_cols(df):
+def explode_columns(df):
     """
     Exploding the columns and renaming them to a new dataframe
     """
@@ -104,11 +105,11 @@ def exploding_cols(df):
     return df_cols_exp
 
 
-def split_date_time(df):
+def split_columns(df):
     """
-    Splitting the column 'create_date' in two columns 'date' and 'time'
+    Splitting columns timestamp in two columns 'date' and 'time'
     """
-    logger.info("Splitting the column 'create_date' . . .")
+    logger.info("Splitting columns timestamp . . .")
 
     # Adding a new column: date
     df = df.withColumn('date', F.to_date(df['create_date']))
@@ -119,11 +120,109 @@ def split_date_time(df):
     return df_dt_tm
 
 
-def remove_parameters(df):
+def remove_columns(df):
     """
-    Removing the column 'parameters'
+    Removing the columns that are not necessary
     """
+    logger.info("Removing the columns not necessary . . .")
     return df.drop("parameters")
+
+
+def field_list():
+    """
+    Returning the list of fields
+    """
+    return [
+        'id_binary',
+        'id_type',
+        'customer_binary',
+        'customer_type',
+        'user_binary',
+        'user_type',
+        'item_binary',
+        'item_type',
+        'type_name',
+        'type_value',
+        'url',
+        'url_raw',
+        'is_referral',
+        'create_date',
+        'ip',
+        'is_processed_ip',
+        'last_click_date',
+        'device_family',
+        'device_is_spider',
+        'os_family',
+        'browser_family',
+        'browser_major',
+        'browser_minor',
+        'browser_patch',
+        'is_direct',
+        'referrer',
+        'date',
+        'hour'
+    ]
+
+
+def csv_writer(row):
+    """
+    Writing each row from RDD into the CSV file
+    """
+    habla_ai = open(data_dir + 'hablaAI.csv', 'a')
+
+    with habla_ai:
+        field_names = field_list()
+
+        writer = csv.DictWriter(habla_ai, fieldnames=field_names)
+        writer.writerow(
+            {
+                'id_binary': row[0],
+                'id_type': row[1],
+                'customer_binary': row[2],
+                'customer_type': row[3],
+                'user_binary': row[4],
+                'user_type': row[5],
+                'item_binary': row[6],
+                'item_type': row[7],
+                'type_name': row[8],
+                'type_value': row[9],
+                'url': row[10],
+                'url_raw': row[11],
+                'is_referral': row[12],
+                'create_date': row[13],
+                'ip': row[14],
+                'is_processed_ip': row[15],
+                'last_click_date': row[16],
+                'device_family': row[17],
+                'device_is_spider': row[18],
+                'os_family': row[19],
+                'browser_family': row[20],
+                'browser_major': row[21],
+                'browser_minor': row[22],
+                'browser_patch': row[23],
+                'is_direct': row[24],
+                'referrer': row[25],
+                'date': row[26],
+                'hour': row[27]
+            })
+
+
+def save_to_csv(df):
+    """
+    Saving the data in a CSV file to the next steps
+    """
+    logger.info("Saving all data to CSV file . . .")
+
+    habla_ai = open(data_dir + 'hablaAI.csv', 'w')
+
+    with habla_ai:
+        field_names = field_list()
+
+        writer = csv.DictWriter(habla_ai, fieldnames=field_names)
+        writer.writeheader()
+
+    for each_row in df.rdd.collect():
+        csv_writer(each_row)
 
 
 def main(sqlc):
@@ -131,27 +230,23 @@ def main(sqlc):
     Here is where everything happens
     """
     # Creating the dataframe
-    df_json = creating_df(sqlc, data_path)
+    df_json = create_dataframe(sqlc, data_path)
 
     # Creating a new dataframe with all columns exploded
-    df_cols_exp = exploding_cols(df_json)
+    df_cols_exp = explode_columns(df_json)
 
-    # Splitting the column 'create_date' in two columns 'date' and 'time'
-    df_dt_tm = split_date_time(df_cols_exp)
+    # Splitting columns timestamp in two columns 'date' and 'time'
+    df_dt_tm = split_columns(df_cols_exp)
 
-    # Removing the column 'parameters'
-    df_no_param = remove_parameters(df_dt_tm)
+    # Removing the columns that are not necessary
+    df_no_param = remove_columns(df_dt_tm)
 
     # Show the values
     df_no_param.show()
     df_no_param.printSchema()
 
-    # Save the results in CSV file
-    # logger.info("Saving all data to CSV file . . .")
-    # df_dt_tm.write.csv(
-    #     os.path.join(data_path, "hablaAI.csv"),
-    #     header='true'
-    # )
+    # Saving the final result into a CSV file
+    save_to_csv(df_no_param)
 
 
 if __name__ == '__main__':
@@ -178,3 +273,7 @@ if __name__ == '__main__':
     # Closing the SparkContext
     logger.info("Closing the SparkContext . . .")
     sc.stop()
+
+    # Finishing this process
+    logger.info("Process has been finished!")
+    print("Process has been finished with success!")
