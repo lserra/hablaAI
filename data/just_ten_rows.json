@@ -1,1 +1,623 @@
-﻿[{"_id":{"$binary":"NP4C8ceYD0Szo/2QAcM8eA==","$type":"03"},"CustomerId":{"$binary":"Fr9oWfIRPk6Tn0F12240tw==","$type":"03"},"UserId":{"$binary":"L4dRLO6IAkyl9iPwV/YxDw==","$type":"03"},"ItemId":{"$binary":"WhAjnkNAx0+DZR6/jloagA==","$type":"03"},"Type":{"Name":"View","Value":2},"Url":"https://www.vagas.com.br/vagas-de-cobrador-de-coletivo?","UrlRaw":"https://www.vagas.com.br/vagas-de-cobrador-de-coletivo?","IsReferral":false,"CreateDate":{"$date":"2019-02-10T00:00:00.000Z"},"IP":"179.162.175.155","IsProcessedIp":false,"LastClickDate":{"$date":"2019-02-03T15:52:48.000Z"},"Parameters":[{"Name":"utm_campaign","Value":"1830839"},{"Name":"utm_medium","Value":"email"},{"Name":"utm_source","Value":"AlertadeVagas"}],"Agent":{"Device":{"Family":"Other","IsSpider":false},"OS":{"Family":"Windows"},"Browser":{"Family":"Chrome","Major":"71","Minor":"0","Patch":"3578"}},"IsDirect":false,"Referrer":null},{"_id":{"$binary":"MTpVc1ZJ/0e0kHU5i3h2CQ==","$type":"03"},"CustomerId":{"$binary":"MWY5bBVHEEOWUfnTwFnnHQ==","$type":"03"},"UserId":{"$binary":"l5SDMXYSXEmIK8dJyO2dDA==","$type":"03"},"ItemId":{"$binary":"4gAQA4NEsUemQ+m47nbkOw==","$type":"03"},"Type":{"Name":"View","Value":2},"Url":"https://www.kabum.com.br/cgi-local/site/listagem/listagem.cgi?string=z270&btng=","UrlRaw":"https://www.kabum.com.br/cgi-local/site/listagem/listagem.cgi?string=z270&btnG=","IsReferral":false,"CreateDate":{"$date":"2019-02-10T00:00:00.000Z"},"IP":"200.170.155.243","IsProcessedIp":false,"LastClickDate":{"$date":"2019-01-22T00:54:56.000Z"},"Parameters":[{"Name":"string","Value":"z270"},{"Name":"btnG","Value":""},{"Name":"utm_source","Value":"FACEBOOKADS"},{"Name":"utm_medium","Value":"DPA"},{"Name":"utm_campaign","Value":"View_3d"}],"Agent":{"Device":{"Family":"Other","IsSpider":false},"OS":{"Family":"Windows"},"Browser":{"Family":"Chrome","Major":"72","Minor":"0","Patch":"3626"}},"IsDirect":false,"Referrer":null},{"_id":{"$binary":"ZeCX+H33lk2agTku7IFU2A==","$type":"03"},"CustomerId":{"$binary":"giY70S63zEKSA+4fCiC2jQ==","$type":"03"},"UserId":{"$binary":"s3guvGB4d0igkNpkNddnUg==","$type":"03"},"ItemId":{"$binary":"+oPCU18Cs0GvWzCR/bGXpw==","$type":"03"},"Type":{"Name":"View","Value":2},"Url":"https://m.rede.natura.net/busca/u/ntt-hidratante%20biografia","UrlRaw":"https://m.rede.natura.net/busca/u/Ntt-Hidratante%20biografia","IsReferral":false,"CreateDate":{"$date":"2019-02-10T00:00:00.000Z"},"IP":"2804:14d:5c73:8281:49e8:725d:80ed:426e","IsProcessedIp":false,"LastClickDate":{"$date":"2018-11-15T01:11:23.000Z"},"Parameters":[{"Name":"iprom_id","Value":"home_bannerprincipal"},{"Name":"iprom_name","Value":"seg_adormecidos_exclusivo"},{"Name":"iprom_creative","Value":"generico"},{"Name":"iprom_pos","Value":"1"}],"Agent":{"Device":{"Family":"Samsung SM-J500M","IsSpider":false},"OS":{"Family":"Android","Major":"6","Minor":"0","Patch":"1"},"Browser":{"Family":"Chrome Mobile","Major":"72","Minor":"0","Patch":"3626"}},"IsDirect":false,"Referrer":null},{"_id":{"$binary":"psrM0+2t/USVJ9U/LBKOGw==","$type":"03"},"CustomerId":{"$binary":"MWY5bBVHEEOWUfnTwFnnHQ==","$type":"03"},"UserId":{"$binary":"Y96xl+LAjEeCHS2Az7tVrw==","$type":"03"},"ItemId":{"$binary":"4gAQA4NEsUemQ+m47nbkOw==","$type":"03"},"Type":{"Name":"View","Value":2},"Url":"https://www.kabum.com.br/cgi-local/site/listagem/listagem.cgi?string=z390&btng=","UrlRaw":"https://www.kabum.com.br/cgi-local/site/listagem/listagem.cgi?string=z390&btnG=","IsReferral":false,"CreateDate":{"$date":"2019-02-10T00:00:00.000Z"},"IP":"191.163.58.125","IsProcessedIp":false,"LastClickDate":{"$date":"2019-02-09T05:54:00.000Z"},"Parameters":[{"Name":"string","Value":"z390"},{"Name":"btnG","Value":""},{"Name":"utm_source","Value":"AWIN"},{"Name":"utm_medium","Value":"AFILIADOS"}],"Agent":{"Device":{"Family":"Other","IsSpider":false},"OS":{"Family":"Windows"},"Browser":{"Family":"Chrome","Major":"72","Minor":"0","Patch":"3626"}},"IsDirect":false,"Referrer":null},{"_id":{"$binary":"cGuAMV1tLE+e/skvnCyKsg==","$type":"03"},"CustomerId":{"$binary":"giY70S63zEKSA+4fCiC2jQ==","$type":"03"},"UserId":{"$binary":"68VxdtKCZkWGR1o3KUwBCw==","$type":"03"},"ItemId":{"$binary":"UOrfuE60jk6AU2rLKtHNFQ==","$type":"03"},"Type":{"Name":"View","Value":2},"Url":"https://www.natura.com.br/acesso-consultor","UrlRaw":"https://www.natura.com.br/acesso-consultor","IsReferral":false,"CreateDate":{"$date":"2019-02-10T00:00:00.000Z"},"IP":"","IsProcessedIp":false,"LastClickDate":{"$date":"2018-03-04T18:35:48.038Z"},"Parameters":[{"Name":"utm_source","Value":"revistanatura"},{"Name":"utm_medium","Value":"Pagina"},{"Name":"utm_content","Value":"lighbox"}],"Agent":{"Device":{"Family":"Other","IsSpider":false},"OS":{"Family":"Windows"},"Browser":{"Family":"Chrome","Major":"68","Minor":"0","Patch":"3440"}},"IsDirect":false,"Referrer":"https://www.google.com.br/"},{"_id":{"$binary":"9aSVkETjFEm9ZlYre0/ExQ==","$type":"03"},"CustomerId":{"$binary":"MWY5bBVHEEOWUfnTwFnnHQ==","$type":"03"},"UserId":{"$binary":"LYyiqr0OdEyg+vMnNSUg+Q==","$type":"03"},"ItemId":{"$binary":"s3LetoGdo0SR/1SQ0q62VA==","$type":"03"},"Type":{"Name":"View","Value":2},"Url":"https://www.kabum.com.br/cgi-local/site/minha_conta/minha_conta.cgi?link=08","UrlRaw":"https://www.kabum.com.br/cgi-local/site/minha_conta/minha_conta.cgi?link=08","IsReferral":false,"CreateDate":{"$date":"2019-02-10T00:00:00.000Z"},"IP":"177.137.231.120","IsProcessedIp":false,"LastClickDate":{"$date":"2019-02-09T15:53:50.000Z"},"Parameters":[{"Name":"link","Value":"08"},{"Name":"int_banner_name","Value":"SocialMiner"},{"Name":"int_banner_creative","Value":"onsitemessage"},{"Name":"smid","Value":"3-17"}],"Agent":{"Device":{"Family":"Other","IsSpider":false},"OS":{"Family":"Windows"},"Browser":{"Family":"Chrome","Major":"71","Minor":"0","Patch":"3578"}},"IsDirect":false,"Referrer":null},{"_id":{"$binary":"3eQXbgxq9ES7CwpV5Sl9hA==","$type":"03"},"CustomerId":{"$binary":"MWY5bBVHEEOWUfnTwFnnHQ==","$type":"03"},"UserId":{"$binary":"z+3/YkupyU2fUtSp5ykpzg==","$type":"03"},"ItemId":{"$binary":"yKnjA1ZDUk6Wj31Tw08tFg==","$type":"03"},"Type":{"Name":"View","Value":2},"Url":"https://www.kabum.com.br/hardware/ssd-2-5","UrlRaw":"https://www.kabum.com.br/hardware/ssd-2-5","IsReferral":false,"CreateDate":{"$date":"2019-02-10T00:00:00.000Z"},"IP":"138.99.207.241","IsProcessedIp":false,"LastClickDate":{"$date":"2017-12-24T22:24:03.623Z"},"Parameters":[{"Name":"utm_source","Value":"FACEBOOKDPA"},{"Name":"utm_medium","Value":"SOCIAL"},{"Name":"utm_campaign","Value":"PROCESSADOR INTEL CORE I7 7740X KABY LAKE X 7A GERACAO CACHE 8MB 4 3GHZ 4 5GHZ MAX TURBO LGA 2066 BX80677I77740X"}],"Agent":{"Device":{"Family":"Other","IsSpider":false},"OS":{"Family":"Windows"},"Browser":{"Family":"Chrome","Major":"71","Minor":"0","Patch":"3578"}},"IsDirect":false,"Referrer":null},{"_id":{"$binary":"UP9sinCE8EeBXWdtUMmSoQ==","$type":"03"},"CustomerId":{"$binary":"r/mIF223BE6nHHwbe6928g==","$type":"03"},"UserId":{"$binary":"yOZL7d224kiAnmw1SwNHAQ==","$type":"03"},"ItemId":{"$binary":"JP3Jb/rEAk+iyAxSViHIGA==","$type":"03"},"Type":{"Name":"View","Value":2},"Url":"https://busca.marabraz.com.br/busca?q=caantes,+digite+aqui+o+que+procura...","UrlRaw":"https://busca.marabraz.com.br/busca?q=caAntes,+digite+aqui+o+que+procura...","IsReferral":false,"CreateDate":{"$date":"2019-02-10T00:00:00.000Z"},"IP":"","IsProcessedIp":false,"LastClickDate":{"$date":"2019-01-31T09:55:45.000Z"},"Parameters":[{"Name":"q","Value":"caAntes, digite aqui o que procura..."},{"Name":"utm_medium","Value":"dpa"},{"Name":"utm_source","Value":"facebook"},{"Name":"utm_campaign","Value":"dp.dpa.Views_2d.multimidia"},{"Name":"utm_term","Value":"00278780325"}],"Agent":{"Device":{"Family":"Samsung SM-J120H","IsSpider":false},"OS":{"Family":"Android","Major":"5","Minor":"1","Patch":"1"},"Browser":{"Family":"Chrome Mobile","Major":"72","Minor":"0","Patch":"3626"}},"IsDirect":false,"Referrer":null},{"_id":{"$binary":"ZQNYgbnNR0CvsYTyFN9enA==","$type":"03"},"CustomerId":{"$binary":"VBx8f+FnZUqmVAadfMLbjg==","$type":"03"},"UserId":{"$binary":"vHiXivHt7UusoqF0WO1OcQ==","$type":"03"},"ItemId":{"$binary":"SBRmg+lm7kyo0qmlmw2MzQ==","$type":"03"},"Type":{"Name":"View","Value":2},"Url":"https://www.dinda.com.br/campanhas/crocs-kids?utm_campaign=crocs_2018_crocs_lal_2%25_mobile_collection&utm_medium=cpc&utm_source=facebook&utm_term=qua_crocs_kids_fevereiro&utm_id=at1%2118549197","UrlRaw":"https://www.dinda.com.br/campanhas/crocs-kids?utm_campaign=Crocs_2018_Crocs_LaL_2%25_Mobile_Collection&utm_medium=cpc&utm_source=facebook&utm_term=QUA_Crocs_Kids_Fevereiro&utm_id=at1%2118549197","IsReferral":true,"CreateDate":{"$date":"2019-02-10T00:00:00.000Z"},"IP":"138.0.103.186","IsProcessedIp":false,"LastClickDate":{"$date":"2019-02-10T00:00:00.000Z"},"Parameters":[{"Name":"utm_campaign","Value":"Crocs_2018_Crocs_LaL_2%_Mobile_Collection"},{"Name":"utm_medium","Value":"cpc"},{"Name":"utm_source","Value":"facebook"},{"Name":"utm_term","Value":"QUA_Crocs_Kids_Fevereiro"},{"Name":"utm_id","Value":"at1!18549197"}],"Agent":{"Device":{"Family":"5051J","IsSpider":false},"OS":{"Family":"Android","Major":"6","Minor":"0","Patch":"1"},"Browser":{"Family":"Chrome Mobile","Major":"70","Minor":"0","Patch":"3538"}},"IsDirect":false,"Referrer":"http://m.facebook.com/"}]
+﻿[
+  {
+    "_id": {
+      "$binary": "NP4C8ceYD0Szo/2QAcM8eA==" ,
+      "$type": "03"
+    } ,
+    "CustomerId": {
+      "$binary": "Fr9oWfIRPk6Tn0F12240tw==" ,
+      "$type": "03"
+    } ,
+    "UserId": {
+      "$binary": "L4dRLO6IAkyl9iPwV/YxDw==" ,
+      "$type": "03"
+    } ,
+    "ItemId": {
+      "$binary": "WhAjnkNAx0+DZR6/jloagA==" ,
+      "$type": "03"
+    } ,
+    "Type": {
+      "Name": "View" ,
+      "Value": 2
+    } ,
+    "Url": "https://www.vagas.com.br/vagas-de-cobrador-de-coletivo?" ,
+    "UrlRaw": "https://www.vagas.com.br/vagas-de-cobrador-de-coletivo?" ,
+    "IsReferral": false ,
+    "CreateDate": {
+      "$date": "2019-02-10T00:00:00.000Z"
+    } ,
+    "IP": "179.162.175.155" ,
+    "IsProcessedIp": false ,
+    "LastClickDate": {
+      "$date": "2019-02-03T15:52:48.000Z"
+    } ,
+    "Parameters": [
+      {
+        "Name": "utm_campaign" ,
+        "Value": "1830839"
+      } ,
+      {
+        "Name": "utm_medium" ,
+        "Value": "email"
+      } ,
+      {
+        "Name": "utm_source" ,
+        "Value": "AlertadeVagas"
+      }
+    ] ,
+    "Agent": {
+      "Device": {
+        "Family": "Other" ,
+        "IsSpider": false
+      } ,
+      "OS": {
+        "Family": "Windows"
+      } ,
+      "Browser": {
+        "Family": "Chrome" ,
+        "Major": "71" ,
+        "Minor": "0" ,
+        "Patch": "3578"
+      }
+    } ,
+    "IsDirect": false ,
+    "Referrer": null
+  } ,
+  {
+    "_id": {
+      "$binary": "MTpVc1ZJ/0e0kHU5i3h2CQ==" ,
+      "$type": "03"
+    } ,
+    "CustomerId": {
+      "$binary": "MWY5bBVHEEOWUfnTwFnnHQ==" ,
+      "$type": "03"
+    } ,
+    "UserId": {
+      "$binary": "l5SDMXYSXEmIK8dJyO2dDA==" ,
+      "$type": "03"
+    } ,
+    "ItemId": {
+      "$binary": "4gAQA4NEsUemQ+m47nbkOw==" ,
+      "$type": "03"
+    } ,
+    "Type": {
+      "Name": "View" ,
+      "Value": 2
+    } ,
+    "Url": "https://www.kabum.com.br/cgi-local/site/listagem/listagem.cgi?string=z270&btng=" ,
+    "UrlRaw": "https://www.kabum.com.br/cgi-local/site/listagem/listagem.cgi?string=z270&btnG=" ,
+    "IsReferral": false ,
+    "CreateDate": {
+      "$date": "2019-02-10T00:00:00.000Z"
+    } ,
+    "IP": "200.170.155.243" ,
+    "IsProcessedIp": false ,
+    "LastClickDate": {
+      "$date": "2019-01-22T00:54:56.000Z"
+    } ,
+    "Parameters": [
+      {
+        "Name": "string" ,
+        "Value": "z270"
+      } ,
+      {
+        "Name": "btnG" ,
+        "Value": ""
+      } ,
+      {
+        "Name": "utm_source" ,
+        "Value": "FACEBOOKADS"
+      } ,
+      {
+        "Name": "utm_medium" ,
+        "Value": "DPA"
+      } ,
+      {
+        "Name": "utm_campaign" ,
+        "Value": "View_3d"
+      }
+    ] ,
+    "Agent": {
+      "Device": {
+        "Family": "Other" ,
+        "IsSpider": false
+      } ,
+      "OS": {
+        "Family": "Windows"
+      } ,
+      "Browser": {
+        "Family": "Chrome" ,
+        "Major": "72" ,
+        "Minor": "0" ,
+        "Patch": "3626"
+      }
+    } ,
+    "IsDirect": false ,
+    "Referrer": null
+  } ,
+  {
+    "_id": {
+      "$binary": "ZeCX+H33lk2agTku7IFU2A==" ,
+      "$type": "03"
+    } ,
+    "CustomerId": {
+      "$binary": "giY70S63zEKSA+4fCiC2jQ==" ,
+      "$type": "03"
+    } ,
+    "UserId": {
+      "$binary": "s3guvGB4d0igkNpkNddnUg==" ,
+      "$type": "03"
+    } ,
+    "ItemId": {
+      "$binary": "+oPCU18Cs0GvWzCR/bGXpw==" ,
+      "$type": "03"
+    } ,
+    "Type": {
+      "Name": "View" ,
+      "Value": 2
+    } ,
+    "Url": "https://m.rede.natura.net/busca/u/ntt-hidratante%20biografia" ,
+    "UrlRaw": "https://m.rede.natura.net/busca/u/Ntt-Hidratante%20biografia" ,
+    "IsReferral": false ,
+    "CreateDate": {
+      "$date": "2019-02-10T00:00:00.000Z"
+    } ,
+    "IP": "2804:14d:5c73:8281:49e8:725d:80ed:426e" ,
+    "IsProcessedIp": false ,
+    "LastClickDate": {
+      "$date": "2018-11-15T01:11:23.000Z"
+    } ,
+    "Parameters": [
+      {
+        "Name": "iprom_id" ,
+        "Value": "home_bannerprincipal"
+      } ,
+      {
+        "Name": "iprom_name" ,
+        "Value": "seg_adormecidos_exclusivo"
+      } ,
+      {
+        "Name": "iprom_creative" ,
+        "Value": "generico"
+      } ,
+      {
+        "Name": "iprom_pos" ,
+        "Value": "1"
+      }
+    ] ,
+    "Agent": {
+      "Device": {
+        "Family": "Samsung SM-J500M" ,
+        "IsSpider": false
+      } ,
+      "OS": {
+        "Family": "Android" ,
+        "Major": "6" ,
+        "Minor": "0" ,
+        "Patch": "1"
+      } ,
+      "Browser": {
+        "Family": "Chrome Mobile" ,
+        "Major": "72" ,
+        "Minor": "0" ,
+        "Patch": "3626"
+      }
+    } ,
+    "IsDirect": false ,
+    "Referrer": null
+  } ,
+  {
+    "_id": {
+      "$binary": "psrM0+2t/USVJ9U/LBKOGw==" ,
+      "$type": "03"
+    } ,
+    "CustomerId": {
+      "$binary": "MWY5bBVHEEOWUfnTwFnnHQ==" ,
+      "$type": "03"
+    } ,
+    "UserId": {
+      "$binary": "Y96xl+LAjEeCHS2Az7tVrw==" ,
+      "$type": "03"
+    } ,
+    "ItemId": {
+      "$binary": "4gAQA4NEsUemQ+m47nbkOw==" ,
+      "$type": "03"
+    } ,
+    "Type": {
+      "Name": "View" ,
+      "Value": 2
+    } ,
+    "Url": "https://www.kabum.com.br/cgi-local/site/listagem/listagem.cgi?string=z390&btng=" ,
+    "UrlRaw": "https://www.kabum.com.br/cgi-local/site/listagem/listagem.cgi?string=z390&btnG=" ,
+    "IsReferral": false ,
+    "CreateDate": {
+      "$date": "2019-02-10T00:00:00.000Z"
+    } ,
+    "IP": "191.163.58.125" ,
+    "IsProcessedIp": false ,
+    "LastClickDate": {
+      "$date": "2019-02-09T05:54:00.000Z"
+    } ,
+    "Parameters": [
+      {
+        "Name": "string" ,
+        "Value": "z390"
+      } ,
+      {
+        "Name": "btnG" ,
+        "Value": ""
+      } ,
+      {
+        "Name": "utm_source" ,
+        "Value": "AWIN"
+      } ,
+      {
+        "Name": "utm_medium" ,
+        "Value": "AFILIADOS"
+      }
+    ] ,
+    "Agent": {
+      "Device": {
+        "Family": "Other" ,
+        "IsSpider": false
+      } ,
+      "OS": {
+        "Family": "Windows"
+      } ,
+      "Browser": {
+        "Family": "Chrome" ,
+        "Major": "72" ,
+        "Minor": "0" ,
+        "Patch": "3626"
+      }
+    } ,
+    "IsDirect": false ,
+    "Referrer": null
+  } ,
+  {
+    "_id": {
+      "$binary": "cGuAMV1tLE+e/skvnCyKsg==" ,
+      "$type": "03"
+    } ,
+    "CustomerId": {
+      "$binary": "giY70S63zEKSA+4fCiC2jQ==" ,
+      "$type": "03"
+    } ,
+    "UserId": {
+      "$binary": "68VxdtKCZkWGR1o3KUwBCw==" ,
+      "$type": "03"
+    } ,
+    "ItemId": {
+      "$binary": "UOrfuE60jk6AU2rLKtHNFQ==" ,
+      "$type": "03"
+    } ,
+    "Type": {
+      "Name": "View" ,
+      "Value": 2
+    } ,
+    "Url": "https://www.natura.com.br/acesso-consultor" ,
+    "UrlRaw": "https://www.natura.com.br/acesso-consultor" ,
+    "IsReferral": false ,
+    "CreateDate": {
+      "$date": "2019-02-10T00:00:00.000Z"
+    } ,
+    "IP": "" ,
+    "IsProcessedIp": false ,
+    "LastClickDate": {
+      "$date": "2018-03-04T18:35:48.038Z"
+    } ,
+    "Parameters": [
+      {
+        "Name": "utm_source" ,
+        "Value": "revistanatura"
+      } ,
+      {
+        "Name": "utm_medium" ,
+        "Value": "Pagina"
+      } ,
+      {
+        "Name": "utm_content" ,
+        "Value": "lighbox"
+      }
+    ] ,
+    "Agent": {
+      "Device": {
+        "Family": "Other" ,
+        "IsSpider": false
+      } ,
+      "OS": {
+        "Family": "Windows"
+      } ,
+      "Browser": {
+        "Family": "Chrome" ,
+        "Major": "68" ,
+        "Minor": "0" ,
+        "Patch": "3440"
+      }
+    } ,
+    "IsDirect": false ,
+    "Referrer": "https://www.google.com.br/"
+  } ,
+  {
+    "_id": {
+      "$binary": "9aSVkETjFEm9ZlYre0/ExQ==" ,
+      "$type": "03"
+    } ,
+    "CustomerId": {
+      "$binary": "MWY5bBVHEEOWUfnTwFnnHQ==" ,
+      "$type": "03"
+    } ,
+    "UserId": {
+      "$binary": "LYyiqr0OdEyg+vMnNSUg+Q==" ,
+      "$type": "03"
+    } ,
+    "ItemId": {
+      "$binary": "s3LetoGdo0SR/1SQ0q62VA==" ,
+      "$type": "03"
+    } ,
+    "Type": {
+      "Name": "View" ,
+      "Value": 2
+    } ,
+    "Url": "https://www.kabum.com.br/cgi-local/site/minha_conta/minha_conta.cgi?link=08" ,
+    "UrlRaw": "https://www.kabum.com.br/cgi-local/site/minha_conta/minha_conta.cgi?link=08" ,
+    "IsReferral": false ,
+    "CreateDate": {
+      "$date": "2019-02-10T00:00:00.000Z"
+    } ,
+    "IP": "177.137.231.120" ,
+    "IsProcessedIp": false ,
+    "LastClickDate": {
+      "$date": "2019-02-09T15:53:50.000Z"
+    } ,
+    "Parameters": [
+      {
+        "Name": "link" ,
+        "Value": "08"
+      } ,
+      {
+        "Name": "int_banner_name" ,
+        "Value": "SocialMiner"
+      } ,
+      {
+        "Name": "int_banner_creative" ,
+        "Value": "onsitemessage"
+      } ,
+      {
+        "Name": "smid" ,
+        "Value": "3-17"
+      }
+    ] ,
+    "Agent": {
+      "Device": {
+        "Family": "Other" ,
+        "IsSpider": false
+      } ,
+      "OS": {
+        "Family": "Windows"
+      } ,
+      "Browser": {
+        "Family": "Chrome" ,
+        "Major": "71" ,
+        "Minor": "0" ,
+        "Patch": "3578"
+      }
+    } ,
+    "IsDirect": false ,
+    "Referrer": null
+  } ,
+  {
+    "_id": {
+      "$binary": "3eQXbgxq9ES7CwpV5Sl9hA==" ,
+      "$type": "03"
+    } ,
+    "CustomerId": {
+      "$binary": "MWY5bBVHEEOWUfnTwFnnHQ==" ,
+      "$type": "03"
+    } ,
+    "UserId": {
+      "$binary": "z+3/YkupyU2fUtSp5ykpzg==" ,
+      "$type": "03"
+    } ,
+    "ItemId": {
+      "$binary": "yKnjA1ZDUk6Wj31Tw08tFg==" ,
+      "$type": "03"
+    } ,
+    "Type": {
+      "Name": "View" ,
+      "Value": 2
+    } ,
+    "Url": "https://www.kabum.com.br/hardware/ssd-2-5" ,
+    "UrlRaw": "https://www.kabum.com.br/hardware/ssd-2-5" ,
+    "IsReferral": false ,
+    "CreateDate": {
+      "$date": "2019-02-10T00:00:00.000Z"
+    } ,
+    "IP": "138.99.207.241" ,
+    "IsProcessedIp": false ,
+    "LastClickDate": {
+      "$date": "2017-12-24T22:24:03.623Z"
+    } ,
+    "Parameters": [
+      {
+        "Name": "utm_source" ,
+        "Value": "FACEBOOKDPA"
+      } ,
+      {
+        "Name": "utm_medium" ,
+        "Value": "SOCIAL"
+      } ,
+      {
+        "Name": "utm_campaign" ,
+        "Value": "PROCESSADOR INTEL CORE I7 7740X KABY LAKE X 7A GERACAO CACHE 8MB 4 3GHZ 4 5GHZ MAX TURBO LGA 2066 BX80677I77740X"
+      }
+    ] ,
+    "Agent": {
+      "Device": {
+        "Family": "Other" ,
+        "IsSpider": false
+      } ,
+      "OS": {
+        "Family": "Windows"
+      } ,
+      "Browser": {
+        "Family": "Chrome" ,
+        "Major": "71" ,
+        "Minor": "0" ,
+        "Patch": "3578"
+      }
+    } ,
+    "IsDirect": false ,
+    "Referrer": null
+  } ,
+  {
+    "_id": {
+      "$binary": "UP9sinCE8EeBXWdtUMmSoQ==" ,
+      "$type": "03"
+    } ,
+    "CustomerId": {
+      "$binary": "r/mIF223BE6nHHwbe6928g==" ,
+      "$type": "03"
+    } ,
+    "UserId": {
+      "$binary": "yOZL7d224kiAnmw1SwNHAQ==" ,
+      "$type": "03"
+    } ,
+    "ItemId": {
+      "$binary": "JP3Jb/rEAk+iyAxSViHIGA==" ,
+      "$type": "03"
+    } ,
+    "Type": {
+      "Name": "View" ,
+      "Value": 2
+    } ,
+    "Url": "https://busca.marabraz.com.br/busca?q=caantes,+digite+aqui+o+que+procura..." ,
+    "UrlRaw": "https://busca.marabraz.com.br/busca?q=caAntes,+digite+aqui+o+que+procura..." ,
+    "IsReferral": false ,
+    "CreateDate": {
+      "$date": "2019-02-10T00:00:00.000Z"
+    } ,
+    "IP": "" ,
+    "IsProcessedIp": false ,
+    "LastClickDate": {
+      "$date": "2019-01-31T09:55:45.000Z"
+    } ,
+    "Parameters": [
+      {
+        "Name": "q" ,
+        "Value": "caAntes, digite aqui o que procura..."
+      } ,
+      {
+        "Name": "utm_medium" ,
+        "Value": "dpa"
+      } ,
+      {
+        "Name": "utm_source" ,
+        "Value": "facebook"
+      } ,
+      {
+        "Name": "utm_campaign" ,
+        "Value": "dp.dpa.Views_2d.multimidia"
+      } ,
+      {
+        "Name": "utm_term" ,
+        "Value": "00278780325"
+      }
+    ] ,
+    "Agent": {
+      "Device": {
+        "Family": "Samsung SM-J120H" ,
+        "IsSpider": false
+      } ,
+      "OS": {
+        "Family": "Android" ,
+        "Major": "5" ,
+        "Minor": "1" ,
+        "Patch": "1"
+      } ,
+      "Browser": {
+        "Family": "Chrome Mobile" ,
+        "Major": "72" ,
+        "Minor": "0" ,
+        "Patch": "3626"
+      }
+    } ,
+    "IsDirect": false ,
+    "Referrer": null
+  } ,
+  {
+    "_id": {
+      "$binary": "ZQNYgbnNR0CvsYTyFN9enA==" ,
+      "$type": "03"
+    } ,
+    "CustomerId": {
+      "$binary": "VBx8f+FnZUqmVAadfMLbjg==" ,
+      "$type": "03"
+    } ,
+    "UserId": {
+      "$binary": "vHiXivHt7UusoqF0WO1OcQ==" ,
+      "$type": "03"
+    } ,
+    "ItemId": {
+      "$binary": "SBRmg+lm7kyo0qmlmw2MzQ==" ,
+      "$type": "03"
+    } ,
+    "Type": {
+      "Name": "View" ,
+      "Value": 2
+    } ,
+    "Url": "https://www.dinda.com.br/campanhas/crocs-kids?utm_campaign=crocs_2018_crocs_lal_2%25_mobile_collection&utm_medium=cpc&utm_source=facebook&utm_term=qua_crocs_kids_fevereiro&utm_id=at1%2118549197" ,
+    "UrlRaw": "https://www.dinda.com.br/campanhas/crocs-kids?utm_campaign=Crocs_2018_Crocs_LaL_2%25_Mobile_Collection&utm_medium=cpc&utm_source=facebook&utm_term=QUA_Crocs_Kids_Fevereiro&utm_id=at1%2118549197" ,
+    "IsReferral": true ,
+    "CreateDate": {
+      "$date": "2019-02-10T00:00:00.000Z"
+    } ,
+    "IP": "138.0.103.186" ,
+    "IsProcessedIp": false ,
+    "LastClickDate": {
+      "$date": "2019-02-10T00:00:00.000Z"
+    } ,
+    "Parameters": [
+      {
+        "Name": "utm_campaign" ,
+        "Value": "Crocs_2018_Crocs_LaL_2%_Mobile_Collection"
+      } ,
+      {
+        "Name": "utm_medium" ,
+        "Value": "cpc"
+      } ,
+      {
+        "Name": "utm_source" ,
+        "Value": "facebook"
+      } ,
+      {
+        "Name": "utm_term" ,
+        "Value": "QUA_Crocs_Kids_Fevereiro"
+      } ,
+      {
+        "Name": "utm_id" ,
+        "Value": "at1!18549197"
+      }
+    ] ,
+    "Agent": {
+      "Device": {
+        "Family": "5051J" ,
+        "IsSpider": false
+      } ,
+      "OS": {
+        "Family": "Android" ,
+        "Major": "6" ,
+        "Minor": "0" ,
+        "Patch": "1"
+      } ,
+      "Browser": {
+        "Family": "Chrome Mobile" ,
+        "Major": "70" ,
+        "Minor": "0" ,
+        "Patch": "3538"
+      }
+    } ,
+    "IsDirect": false ,
+    "Referrer": "http://m.facebook.com/"
+  }
+]
