@@ -631,3 +631,48 @@
 2019-03-11 21:48:48,243 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_extract.py - INFO - Saving all data to CSV file . . .
 2019-03-11 21:48:48,762 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_extract.py - INFO - Closing the SparkContext . . .
 2019-03-11 21:48:49,177 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_extract.py - INFO - Process has been finished!
+2019-03-12 13:37:02,448 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_transform.py - INFO - Starting the transformation's process [T] . . .
+2019-03-12 13:37:02,475 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_transform.py - INFO - Creating the SparkConf . . .
+2019-03-12 13:37:02,476 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_transform.py - INFO - Initializing the SparkContext . . .
+2019-03-12 13:37:16,188 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_transform.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-12 13:37:16,772 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_transform.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-12 13:38:08,395 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_transform.py - INFO - Closing the SparkContext . . .
+2019-03-12 13:38:10,892 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_transform.py - INFO - Process has been finished!
+2019-03-12 13:39:18,359 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_transform.py - INFO - Starting the transformation's process [T] . . .
+2019-03-12 13:39:18,360 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_transform.py - INFO - Creating the SparkConf . . .
+2019-03-12 13:39:18,360 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_transform.py - INFO - Initializing the SparkContext . . .
+2019-03-12 13:39:23,285 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_transform.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-12 13:39:23,335 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_transform.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-12 13:39:28,960 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_transform.py - INFO - Closing the SparkContext . . .
+2019-03-12 13:39:29,276 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_transform.py - INFO - Process has been finished!
+2019-03-12 13:48:33,863 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_extract.py - INFO - Starting the extraction's process [E] . . .
+2019-03-12 13:48:33,863 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_extract.py - INFO - Creating the SparkConf . . .
+2019-03-12 13:48:33,863 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_extract.py - INFO - Initializing the SparkContext . . .
+2019-03-12 13:48:36,627 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_extract.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-12 13:48:36,691 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_extract.py - INFO - Creating a dataframe from a JSON file . . .
+2019-03-12 13:48:40,261 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_extract.py - INFO - Exploding the columns to a new dataframe . . .
+2019-03-12 13:48:40,528 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_extract.py - INFO - Splitting columns timestamp . . .
+2019-03-12 13:48:41,149 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_extract.py - INFO - Removing the columns not necessary . . .
+2019-03-12 13:48:42,454 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_extract.py - INFO - Saving all data to CSV file . . .
+2019-03-12 13:48:42,853 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_extract.py - INFO - Closing the SparkContext . . .
+2019-03-12 13:48:43,117 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_extract.py - INFO - Process has been finished!
+2019-03-12 13:52:32,103 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_extract.py - INFO - Starting the extraction's process [E] . . .
+2019-03-12 13:52:32,103 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_extract.py - INFO - Creating the SparkConf . . .
+2019-03-12 13:52:32,103 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_extract.py - INFO - Initializing the SparkContext . . .
+2019-03-12 13:52:35,079 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_extract.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-12 13:52:35,142 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_extract.py - INFO - Creating a dataframe from a JSON file . . .
+2019-03-12 13:52:37,743 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_extract.py - INFO - Exploding the columns to a new dataframe . . .
+2019-03-12 13:52:37,845 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_extract.py - INFO - Splitting columns timestamp . . .
+2019-03-12 13:52:37,936 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_extract.py - INFO - Removing the columns not necessary . . .
+2019-03-12 13:52:39,167 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_extract.py - INFO - Saving all data to CSV file . . .
+2019-03-12 13:53:09,590 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_extract.py - INFO - Starting the extraction's process [E] . . .
+2019-03-12 13:53:09,590 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_extract.py - INFO - Creating the SparkConf . . .
+2019-03-12 13:53:09,590 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_extract.py - INFO - Initializing the SparkContext . . .
+2019-03-12 13:53:12,392 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_extract.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-12 13:53:12,442 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_extract.py - INFO - Creating a dataframe from a JSON file . . .
+2019-03-12 13:53:14,929 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_extract.py - INFO - Exploding the columns to a new dataframe . . .
+2019-03-12 13:53:15,025 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_extract.py - INFO - Splitting columns timestamp . . .
+2019-03-12 13:53:15,119 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_extract.py - INFO - Removing the columns not necessary . . .
+2019-03-12 13:53:16,377 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_extract.py - INFO - Saving all data to CSV file . . .
+2019-03-12 13:53:16,702 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_extract.py - INFO - Closing the SparkContext . . .
+2019-03-12 13:53:16,877 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_extract.py - INFO - Process has been finished!

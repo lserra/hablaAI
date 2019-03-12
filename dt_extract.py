@@ -114,6 +114,9 @@ def split_columns(df, logger):
     # Adding a new column: date
     df = df.withColumn('date', F.to_date(df['create_date']))
 
+    # Adding a new column: date
+    df = df.withColumn('weekday', F.dayofweek(df['create_date']))
+
     # Adding a new column: time
     df_dt_tm = df.withColumn('hour', F.hour(df['create_date']))
 
@@ -160,6 +163,7 @@ def field_list():
         'is_direct',
         'referrer',
         'date',
+        'weekday',
         'hour'
     ]
 
@@ -203,7 +207,8 @@ def csv_writer(row):
                 'is_direct': row[24],
                 'referrer': row[25],
                 'date': row[26],
-                'hour': row[27]
+                'weekday': row[27],
+                'hour': row[28]
             })
 
 
@@ -255,7 +260,7 @@ def run():
     """
     # Starting the logger
     logger = log_setup(app_name, log_path)
-    logger.info("Starting the process . . .")
+    logger.info("Starting the extraction's process [E] . . .")
 
     # Creating the SparkConf
     logger.info("Creating the SparkConf . . .")
@@ -279,7 +284,6 @@ def run():
 
     # Finishing this process
     logger.info("Process has been finished!")
-    print("Process has been finished with success!")
 
 
 if __name__ == '__main__':
