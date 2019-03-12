@@ -45,17 +45,19 @@ $ crontab -l
 
 Also, you can use any of the following for configuring how often to run a command:
 
-@hourly -> Once an hour at the beginning of the hour
+```
+@hourly    Once an hour at the beginning of the hour
 
-@daily -> Once a day at midnight
+@daily     Once a day at midnight
 
-@weekly -> Once a week at midnight on Sunday morning
+@weekly    Once a week at midnight on Sunday morning
 
-@monthly -> Once a month at midnight on the morning of the first day of the month
+@monthly   Once a month at midnight on the morning of the first day of the month
 
-@yearly -> Once a year at midnight on the morning of January 1
+@yearly    Once a year at midnight on the morning of January 1
 
-@reboot -> At startup
+@reboot    At startup
+```
 
 Instead of to use asterisks you could use:
 
