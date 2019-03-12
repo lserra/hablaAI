@@ -27,6 +27,7 @@ $ crontab -e
 
 This will open the default editor to let us manipulate the _**crontab**_. 
 If you save and exit the editor, all your _**cronjobs**_ are saved into _**crontab**_. 
+
 _**Cronjobs**_ are written in the following format:
 
 ```shell
