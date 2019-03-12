@@ -72,6 +72,8 @@ But, if you're using the Windows you can use the _**Task Manager**_ application.
 
 ## Visualizing the Log
 
+## Requirements
+
 ## Issues
 
 ## Next Steps
