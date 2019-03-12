@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # ==============================================================================
-#                  D A T A       T R A N S F O R M A T I O N
+#                D A T A       T R A N S F O R M A T I O N S
 # ==============================================================================
 # Created by: Laercio Serra (laercio.serra@gmail.com)
 # Customer: Habla AI (Geanderson Lenz via UpWork)
@@ -89,7 +89,7 @@ def execute_sql(sqlc, sql):
 
 def all_transformations(logger, df):
     """
-    TBD
+    Created by Geanderson
     """
     logger.info("Making a few transformations over data . . .")
 
