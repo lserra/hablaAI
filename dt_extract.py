@@ -16,6 +16,7 @@
 
 # Referencing all the libraries used into the code
 import csv
+import datetime as dt
 import logging
 import logging.handlers
 import os
@@ -26,7 +27,7 @@ from pyspark.sql import functions as F
 
 # Defining the immutable values
 data_dir = "/home/lserra/PycharmProjects/hablaAI/data/"
-data_file = "just_onethousand_rows.json"
+data_file = str(dt.date.today().strftime('%Y-%m-%d')) + ".json"
 data_path = os.path.join(data_dir, data_file)
 
 log_dir = "/home/lserra/PycharmProjects/hablaAI/logs/"
