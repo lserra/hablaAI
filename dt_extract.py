@@ -26,7 +26,7 @@ from pyspark.sql import functions as F
 
 # Defining the immutable values
 data_dir = "/home/lserra/PycharmProjects/hablaAI/data/"
-data_file = "just_ten_rows.json"
+data_file = "just_onethousand_rows.json"
 data_path = os.path.join(data_dir, data_file)
 
 log_dir = "/home/lserra/PycharmProjects/hablaAI/logs/"
