@@ -246,10 +246,6 @@ def main(sqlc, logger):
     # Removing the columns that are not necessary
     df_no_param = remove_columns(df_dt_tm, logger)
 
-    # Show the values
-    df_no_param.show()
-    df_no_param.printSchema()
-
     # Saving the final result into a CSV file
     save_to_csv(df_no_param, logger)
 
