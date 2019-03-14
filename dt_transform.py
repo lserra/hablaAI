@@ -23,7 +23,6 @@ from pyspark.sql import functions as F
 
 from pyspark.ml import Pipeline
 from pyspark.ml.feature import StringIndexer
-# from pyspark.sql.functions import col
 from datetime import datetime, timedelta
 
 # Defining the immutable values
@@ -118,7 +117,6 @@ def all_transformations(logger, df):
         .pivot('type_value') \
         .agg(F.count('url'))
 
-    # result_9 = transf_e.toDF(
     transf_f = transf_e.select(
         transf_e['customer_binary'],
         transf_e['user_binary'],
@@ -253,11 +251,8 @@ def main(sqlc, logger):
     # Creating the dataframe
     df_csv = create_dataframe(sqlc, data_path_input, logger)
 
+    # Making all transformation over the data
     df_final = all_transformations(logger, df_csv)
-
-    # Show the values
-    df_final.show()
-    df_final.printSchema()
 
     # Saving the final result into a CSV file
     save_to_csv(df_final, logger)
