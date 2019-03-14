@@ -102,35 +102,25 @@ def csv_writer(row, data_path_output):
             })
 
 
-def save_to_csv(df, logger):
+def save_to_csv(count, df_filtered, logger):
     """
     Saving the data in a CSV file to the next steps
     """
     logger.info("Saving all data by customer to CSV file . . .")
 
-    count = 1
-    for each_row in df.rdd.collect():
-        filename = "customer_" + str(count) + ".csv"
+    filename = "output/customer_"
+    output_filename = data_dir + filename + str(count) + ".csv"
 
-        data_path_output = os.path.join(
-            data_dir,
-            "output",
-            filename
-        )
+    habla_ai = open(output_filename, 'w')
 
-        habla_ai = open(data_path_output, 'w')
-
-        # with habla_ai:
+    with habla_ai:
         field_names = field_list()
 
         writer = csv.DictWriter(habla_ai, fieldnames=field_names)
         writer.writeheader()
 
-        habla_ai.close()
-
-        csv_writer(each_row, data_path_output)
-
-        count += 1
+    for rdd in df_filtered.rdd.collect():
+        csv_writer(rdd, output_filename)
 
 
 def create_dataframe(sqlc, csv, logger):
@@ -170,8 +160,9 @@ def main(sqlc, logger):
     df_distinct_customer = sqlc.sql(str_sql)
 
     # Filtering rows by customer
+    count = 0
     for customer in df_distinct_customer.rdd.collect():
-        print(customer[0])
+        count += 1
         df_filtered = filter_rows_by_customer(
             logger,
             customer[0],
@@ -179,7 +170,7 @@ def main(sqlc, logger):
         )
 
         # Saving the final result into a CSV file
-        save_to_csv(df_filtered, logger)
+        save_to_csv(count, df_filtered, logger)
 
 
 def run():
