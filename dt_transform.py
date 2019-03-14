@@ -71,124 +71,108 @@ def create_dataframe(sqlc, csv, logger):
         load(csv)
 
 
-def register_temp_table(logger, df):
-    """
-    Registering the schema as a temp table
-    """
-    logger.info("Registering the schema as a temp table . . .")
-
-    df.registerTempTable("interactions")
-
-
-def execute_sql(sqlc, sql):
-    """
-    TBD
-    """
-    return sqlc.sql(sql)
-
-
 def all_transformations(logger, df):
     """
-    Created by Geanderson
+    Based on analysis that has been done by Geanderson
     """
-    logger.info("Making a few transformations over data . . .")
+    logger.info("Making transformations over all data . . .")
 
-    df1 = df.select(
+    last_week = (datetime.today() - timedelta(days=7))\
+        .strftime(format='%Y-%m-%d')
+
+    transf_a = df.select(
         df['device_family'].alias('device'),
         df['os_family'].alias('os'),
         df['browser_family'].alias('browser')
     )
 
-    columns = ["device", "os", "browser"]
+    columns = transf_a.columns
     indexers = [
-        StringIndexer(inputCol=column, outputCol=column + "_index").fit(df1)
+        StringIndexer(
+            inputCol=column,
+            outputCol=column + "_index").fit(transf_a)
         for column in columns
     ]
 
     pipeline = Pipeline(stages=indexers)
 
-    df_r = pipeline.fit(df1).transform(df1)
-    df_r.drop('device', 'os', 'browser')
+    transf_b = pipeline.fit(transf_a).transform(transf_a)\
+        .drop('device', 'os', 'browser')
 
-    df_type_id = df1.select(df['type_value'])
-
-    df_id1 = df_r.withColumn("id", F.monotonically_increasing_id())
-    df_id2 = df_type_id.withColumn("id", F.monotonically_increasing_id())
-
-    df3 = df_id1.join(df_id2, "id", "inner")
-    df3.drop('device', 'os', 'browser')
-
-    result_2 = df1.withColumn("id", F.monotonically_increasing_id())
-
-    result_3 = result_2.join(df3, 'id', 'inner')
-    # result_3.drop('Type', 'Agent')
-
-    result_4 = result_3.select(result_3['date'])
-
-    result_5 = result_4.select(
-        result_4['date'],
-        result_4['weekday'],
-        result_4['hour']
+    transf_c = df.select(
+        df['date'],
+        df['weekday'],
+        df['hour'],
+        df['customer_binary'],
+        df['user_binary'],
+        df['url'],
+        df['type_value']
     )
 
-    result_6 = result_5.withColumn("id", F.monotonically_increasing_id())
+    df_id1 = transf_b.withColumn("id", F.monotonically_increasing_id())
+    df_id2 = transf_c.withColumn("id", F.monotonically_increasing_id())
 
-    result_7 = result_3.join(result_6, 'id', 'inner')
+    transf_d = df_id1.join(df_id2, "id", "inner")
 
-    result_8 = result_7.groupby('customer_binary', 'user_binary', 'hour')\
-        .pivot('type_value')\
+    transf_e = transf_d.groupby('customer_binary', 'user_binary', 'hour') \
+        .pivot('type_value') \
         .agg(F.count('url'))
 
-    result_9 = result_8.toDF(
-        'customer_binary',
-        'user_binary',
-        'hour',
-        'product_views_hour',
-        'cart_views_hour',
-        'purchase_views_hour').fillna(0).drop('customer_binary', 'hour')
+    # result_9 = transf_e.toDF(
+    transf_f = transf_e.select(
+        transf_e['customer_binary'],
+        transf_e['user_binary'],
+        transf_e['hour'],
+        transf_e['2'].alias('product_views_hour'),
+        transf_e['4'].alias('cart_views_hour'),
+        transf_e['5'].alias('purchase_views_hour')
+    ).fillna(0)\
+        .drop('customer_binary', 'hour')
 
-    result_10 = result_9.join(result_7, 'user_binary', 'inner')
-    # result_10.drop('type_value')
+    transf_g = transf_f.join(transf_d, 'user_binary', 'inner')\
+        .drop('type_value')
 
-    result_11 = result_10.groupby('customer_binary', 'user_binary', 'hour')\
-        .agg(F.count('url').alias("page_views_hour"))\
-        .fillna(0)\
+    transf_h = transf_g.groupby('customer_binary', 'user_binary', 'hour') \
+        .agg(F.count('url').alias("page_views_hour")) \
+        .fillna(0) \
         .drop("customer_binary", 'hour')
 
-    result_12 = result_10.join(result_11, 'user_binary', 'inner').drop('url')
+    transf_i = transf_g.join(transf_h, 'user_binary', 'inner').drop('url')
 
-    last_week = (datetime.today() - timedelta(days=7)).strftime(fmt='%Y-%m-%d')
+    df_journey = transf_i.where(transf_i.date <= last_week)
 
-    journey = result_12.where(result_12.date <= last_week)
-
-    result_13 = journey.groupby('customer_binary', 'user_binary')\
+    transf_j = df_journey.groupby(
+        'customer_binary', 'user_binary') \
         .agg(
         F.count("page_views_hour").alias("page_views_journey"),
         F.count("product_views_hour").alias("product_views_journey"),
         F.count("cart_views_hour").alias("cart_views_journey"),
         F.count("purchase_views_hour").alias("purchase_views_journey")
-    )\
+    ) \
         .fillna(0)\
         .drop('customer_binary')
 
-    result_14 = result_12.join(result_13, 'user_binary', 'inner')
-    result_15 = result_14.select(
-        result_14['device_index'].alias('device'),
-        result_14['os_index'].alias('os'),
-        result_14['browser_index'].alias('browser'),
-        result_14['weekday'],
-        result_14['hour'],
-        result_14['product_views_hour'],
-        result_14['cart_views_hour'],
-        result_14['purchase_views_hour'],
-        result_14['page_views_hour'],
-        result_14['product_views_journey'],
-        result_14['cart_views_journey'],
-        result_14['purchase_views_journey'],
-        result_14['page_views_journey']
-    )
+    transf_j = transf_i.join(transf_j, 'user_binary', 'inner')
 
-    return result_15
+    transf_k = transf_j.select(
+        transf_j['customer_binary'],
+        transf_j['user_binary'],
+        transf_j['device_index'].alias('device'),
+        transf_j['os_index'].alias('os'),
+        transf_j['browser_index'].alias('browser'),
+        transf_j['weekday'],
+        transf_j['hour'],
+        transf_j['product_views_hour'],
+        transf_j['cart_views_hour'],
+        transf_j['purchase_views_hour'],
+        transf_j['page_views_hour'],
+        transf_j['product_views_journey'],
+        transf_j['cart_views_journey'],
+        transf_j['purchase_views_journey'],
+        transf_j['page_views_journey']
+    ).fillna(0)
+
+    return transf_k
 
 
 def field_list():
@@ -196,35 +180,21 @@ def field_list():
     Returning the list of fields
     """
     return [
-        'id_binary',
-        'id_type',
         'customer_binary',
-        'customer_type',
         'user_binary',
-        'user_type',
-        'item_binary',
-        'item_type',
-        'type_name',
-        'type_value',
-        'url',
-        'url_raw',
-        'is_referral',
-        'create_date',
-        'ip',
-        'is_processed_ip',
-        'last_click_date',
-        'device_family',
-        'device_is_spider',
-        'os_family',
-        'browser_family',
-        'browser_major',
-        'browser_minor',
-        'browser_patch',
-        'is_direct',
-        'referrer',
-        'date',
+        'device',
+        'os',
+        'browser',
         'weekday',
-        'hour'
+        'hour',
+        'product_views_hour',
+        'cart_views_hour',
+        'purchase_views_hour',
+        'page_views_hour',
+        'product_views_journey',
+        'cart_views_journey',
+        'purchase_views_journey',
+        'page_views_journey'
     ]
 
 
@@ -240,35 +210,21 @@ def csv_writer(row):
         writer = csv.DictWriter(habla_ai, fieldnames=field_names)
         writer.writerow(
             {
-                'id_binary': row[0],
-                'id_type': row[1],
-                'customer_binary': row[2],
-                'customer_type': row[3],
-                'user_binary': row[4],
-                'user_type': row[5],
-                'item_binary': row[6],
-                'item_type': row[7],
-                'type_name': row[8],
-                'type_value': row[9],
-                'url': row[10],
-                'url_raw': row[11],
-                'is_referral': row[12],
-                'create_date': row[13],
-                'ip': row[14],
-                'is_processed_ip': row[15],
-                'last_click_date': row[16],
-                'device_family': row[17],
-                'device_is_spider': row[18],
-                'os_family': row[19],
-                'browser_family': row[20],
-                'browser_major': row[21],
-                'browser_minor': row[22],
-                'browser_patch': row[23],
-                'is_direct': row[24],
-                'referrer': row[25],
-                'date': row[26],
-                'weekday': row[27],
-                'hour': row[28]
+                'customer_binary': row[0],
+                'user_binary': row[1],
+                'device': row[2],
+                'os': row[3],
+                'browser': row[4],
+                'weekday': row[5],
+                'hour': row[6],
+                'product_views_hour': row[7],
+                'cart_views_hour': row[8],
+                'purchase_views_hour': row[9],
+                'page_views_hour': row[10],
+                'product_views_journey': row[11],
+                'cart_views_journey': row[12],
+                'purchase_views_journey': row[13],
+                'page_views_journey': row[14]
             })
 
 
@@ -297,18 +253,6 @@ def main(sqlc, logger):
     # Creating the dataframe
     df_csv = create_dataframe(sqlc, data_path_input, logger)
 
-    # Registering the schema as a temp table
-    # register_temp_table(logger, df_csv)
-
-    # TBD
-    # sql_query = """
-    #         SELECT type_name, type_value
-    #         FROM interactions
-    #         WHERE customer_type = '03'
-    #     """
-    #
-    # df_tmp_tbl = execute_sql(sqlc, sql_query)
-
     df_final = all_transformations(logger, df_csv)
 
     # Show the values
@@ -316,7 +260,7 @@ def main(sqlc, logger):
     df_final.printSchema()
 
     # Saving the final result into a CSV file
-    # save_to_csv(df_final, logger)
+    save_to_csv(df_final, logger)
 
 
 def run():
