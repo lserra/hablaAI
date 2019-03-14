@@ -110,4 +110,4 @@ venv.bak/
 .vscode/
 
 # databases
-/data
+data/
