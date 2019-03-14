@@ -1170,3 +1170,1090 @@
 2019-03-13 19:31:16,515 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_transform.py - INFO - Closing the SparkContext . . .
 2019-03-13 19:31:16,891 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_transform.py - INFO - Process has been finished!
 2019-03-13 19:31:16,891 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_transform.py - INFO - Process has been finished!
+2019-03-13 23:21:40,929 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the transformation's process [T] . . .
+2019-03-13 23:21:40,929 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-13 23:21:40,929 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-13 23:21:54,649 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-13 23:21:55,128 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-13 23:22:03,129 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Closing the SparkContext . . .
+2019-03-13 23:22:03,534 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Process has been finished!
+2019-03-13 23:26:24,003 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the transformation's process [T] . . .
+2019-03-13 23:26:24,003 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-13 23:26:24,003 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-13 23:26:28,067 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-13 23:26:28,123 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-13 23:30:01,698 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the transformation's process [T] . . .
+2019-03-13 23:30:01,698 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-13 23:30:01,698 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-13 23:30:04,487 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-13 23:30:04,535 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-13 23:30:11,112 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Closing the SparkContext . . .
+2019-03-13 23:30:11,478 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Process has been finished!
+2019-03-13 23:50:58,527 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-13 23:50:58,527 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-13 23:50:58,527 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-13 23:51:02,262 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-13 23:51:02,313 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-13 23:51:06,819 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-13 23:52:18,953 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-13 23:52:18,953 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-13 23:52:18,954 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-13 23:52:22,510 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-13 23:52:22,568 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-13 23:52:26,582 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-13 23:53:43,879 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-13 23:53:43,879 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-13 23:53:43,879 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-13 23:53:46,659 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-13 23:53:46,715 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-13 23:53:50,788 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-13 23:53:51,460 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Closing the SparkContext . . .
+2019-03-13 23:53:51,647 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Process has been finished!
+2019-03-13 23:54:32,746 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-13 23:54:32,747 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-13 23:54:32,747 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-13 23:54:35,750 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-13 23:54:35,807 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-13 23:54:39,798 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-13 23:55:29,326 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-13 23:55:29,326 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-13 23:55:29,327 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-13 23:55:32,121 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-13 23:55:32,176 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-13 23:55:36,381 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-13 23:56:18,606 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-13 23:56:18,606 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-13 23:56:18,606 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-13 23:56:21,401 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-13 23:56:21,454 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-13 23:56:25,681 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:00:32,463 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-14 00:00:32,464 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-14 00:00:32,464 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-14 00:00:35,674 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-14 00:00:35,741 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-14 00:00:42,059 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:01:10,259 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-14 00:01:10,259 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-14 00:01:10,259 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-14 00:01:12,914 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-14 00:01:12,984 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-14 00:01:18,823 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:32,234 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-14 00:02:32,235 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-14 00:02:32,235 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-14 00:02:34,984 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-14 00:02:35,042 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-14 00:02:40,867 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:41,270 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:41,462 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:41,724 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:42,036 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:42,208 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:42,397 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:42,553 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:42,766 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:42,919 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:43,106 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:43,264 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:43,446 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:43,628 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:43,779 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:43,938 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:44,120 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:44,307 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:44,463 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:44,581 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:44,752 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:44,890 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:45,048 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:45,161 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:45,337 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:45,494 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:45,649 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:45,779 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:45,961 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:46,091 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:46,271 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:46,381 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:46,542 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:46,637 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:46,731 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:46,849 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:46,948 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:47,076 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:47,187 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:47,284 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:47,414 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:47,500 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:47,582 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:47,686 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:47,770 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:47,898 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:47,971 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:48,059 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:48,172 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:48,251 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:48,335 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:48,433 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:48,510 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:48,620 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:48,711 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:48,787 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:02:48,870 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Closing the SparkContext . . .
+2019-03-14 00:02:48,980 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Process has been finished!
+2019-03-14 00:04:28,644 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-14 00:04:28,644 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-14 00:04:28,644 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-14 00:04:31,320 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-14 00:04:31,380 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-14 00:04:37,370 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:43,236 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-14 00:05:43,236 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-14 00:05:43,236 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-14 00:05:46,015 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-14 00:05:46,075 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-14 00:05:51,925 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:52,349 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:52,580 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:52,771 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:52,990 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:53,170 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:53,382 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:53,566 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:53,763 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:53,923 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:54,116 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:54,280 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:54,485 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:54,658 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:54,849 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:55,025 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:55,240 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:55,423 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:55,561 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:55,734 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:55,917 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:56,031 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:56,207 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:56,368 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:56,486 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:56,659 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:56,856 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:56,978 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:57,142 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:57,251 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:57,412 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:57,539 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:57,654 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:57,788 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:57,884 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:58,037 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:58,171 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:58,287 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:58,397 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:58,511 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:58,615 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:58,757 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:58,837 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:58,993 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:59,098 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:59,197 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:59,293 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:59,387 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:59,501 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:59,615 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:59,733 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:59,825 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:05:59,947 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:06:00,036 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:06:00,170 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:06:00,265 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:06:00,346 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Closing the SparkContext . . .
+2019-03-14 00:06:00,510 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Process has been finished!
+2019-03-14 00:17:34,078 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-14 00:17:34,078 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-14 00:17:34,078 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-14 00:17:37,764 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-14 00:17:37,821 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-14 00:17:43,825 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:17:43,918 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 00:19:22,015 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-14 00:19:22,015 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-14 00:19:22,015 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-14 00:19:25,358 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-14 00:19:25,414 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-14 00:19:30,884 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:19:30,954 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 00:20:40,669 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-14 00:20:40,669 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-14 00:20:40,669 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-14 00:20:43,669 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-14 00:20:43,724 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-14 00:20:49,385 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:20:49,478 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 00:21:48,716 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-14 00:21:48,716 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-14 00:21:48,716 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-14 00:21:51,460 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-14 00:21:51,517 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-14 00:21:57,054 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:21:57,158 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 00:21:58,031 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:21:58,080 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 00:26:40,140 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-14 00:26:40,140 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-14 00:26:40,141 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-14 00:26:42,903 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-14 00:26:42,959 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-14 00:26:48,904 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:26:48,978 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 00:30:20,640 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-14 00:30:20,640 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-14 00:30:20,640 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-14 00:30:23,408 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-14 00:30:23,455 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-14 00:30:29,138 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:30:29,211 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 00:31:11,342 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-14 00:31:11,342 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-14 00:31:11,342 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-14 00:31:14,019 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-14 00:31:14,078 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-14 00:31:19,687 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:31:19,776 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 00:31:20,138 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:31:20,195 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 00:38:38,297 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-14 00:38:38,297 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-14 00:38:38,297 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-14 00:38:41,169 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-14 00:38:41,221 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-14 00:38:46,795 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:38:46,866 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 00:38:47,226 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:38:47,281 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 00:44:00,943 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-14 00:44:00,943 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-14 00:44:00,943 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-14 00:44:03,816 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-14 00:44:03,868 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-14 00:44:09,712 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:44:09,772 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 00:47:52,545 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-14 00:47:52,545 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-14 00:47:52,545 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-14 00:47:56,401 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-14 00:47:56,452 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-14 00:48:02,124 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:48:02,198 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 00:48:04,407 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:48:04,464 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 00:54:26,557 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-14 00:54:26,558 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-14 00:54:26,558 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-14 00:54:29,333 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-14 00:54:29,388 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-14 00:54:35,080 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:54:35,136 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 00:54:35,519 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:54:35,576 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 00:58:37,765 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-14 00:58:37,765 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-14 00:58:37,765 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-14 00:58:40,528 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-14 00:58:40,580 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-14 00:58:46,371 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:58:46,446 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 00:58:46,818 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 00:58:46,878 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:01:52,875 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-14 01:01:52,875 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-14 01:01:52,875 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-14 01:01:55,526 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-14 01:01:55,590 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-14 01:02:01,519 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:02:01,577 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:02:01,950 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:02:02,003 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:03:13,941 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-14 01:03:13,942 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-14 01:03:13,942 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-14 01:03:17,746 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-14 01:03:17,801 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-14 01:03:23,723 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:03:23,808 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:28:28,801 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-14 01:28:28,801 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-14 01:28:28,801 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-14 01:28:32,366 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-14 01:28:32,422 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-14 01:28:37,941 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:28:37,995 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:28:38,344 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:28:38,400 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:29:53,165 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-14 01:29:53,165 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-14 01:29:53,165 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-14 01:29:56,054 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-14 01:29:56,105 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-14 01:30:01,722 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:01,779 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:26,462 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-14 01:30:26,462 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-14 01:30:26,462 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-14 01:30:29,379 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-14 01:30:29,436 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-14 01:30:35,015 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:35,090 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:35,454 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:35,507 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:35,722 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:35,774 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:36,048 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:36,098 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:36,334 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:36,390 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:36,591 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:36,648 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:36,850 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:36,888 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:37,072 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:37,128 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:37,304 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:37,364 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:37,545 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:37,583 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:37,737 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:37,787 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:37,951 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:37,996 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:38,152 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:38,205 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:38,366 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:38,418 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:38,586 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:38,626 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:38,776 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:38,823 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:38,986 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:39,027 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:39,173 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:39,224 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:39,388 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:39,424 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:39,546 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:39,559 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:39,727 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:39,763 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:39,863 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:39,941 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:40,045 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:40,059 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:40,163 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:40,226 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:40,317 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:40,329 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:40,449 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:40,512 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:40,622 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:40,633 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:40,768 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:40,807 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:40,916 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:40,984 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:41,079 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:41,091 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:41,207 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:41,264 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:41,366 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:41,378 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:41,530 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:41,572 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:41,656 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:41,668 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:41,790 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:41,826 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:41,934 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:41,993 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:42,087 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:42,098 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:42,195 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:42,262 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:42,375 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:42,391 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:42,515 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:42,549 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:42,648 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:42,658 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:42,770 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:42,801 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:42,898 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:42,951 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:43,035 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:43,046 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:43,159 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:43,221 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:43,308 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:43,323 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:43,443 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:43,497 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:43,573 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:43,585 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:43,717 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:43,747 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:43,825 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:43,855 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:43,963 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:43,977 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:44,103 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:44,157 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:44,237 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:44,247 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:44,378 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:44,407 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:44,487 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:44,517 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:44,608 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:30:44,620 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:30:44,706 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Closing the SparkContext . . .
+2019-03-14 01:30:44,881 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Process has been finished!
+2019-03-14 01:32:40,057 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-14 01:32:40,057 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-14 01:32:40,057 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-14 01:32:43,577 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-14 01:32:43,635 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-14 01:32:49,238 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:32:49,294 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:15,780 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-14 01:33:15,780 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-14 01:33:15,780 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-14 01:33:18,598 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-14 01:33:18,648 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-14 01:33:24,514 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:24,570 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:24,914 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:24,968 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:25,147 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:25,217 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:25,377 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:25,395 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:25,633 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:25,683 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:25,888 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:25,944 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:26,147 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:26,203 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:26,380 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:26,427 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:26,559 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:26,638 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:26,787 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:26,851 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:27,003 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:27,068 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:27,219 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:27,307 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:27,458 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:27,522 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:27,653 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:27,720 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:27,884 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:27,917 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:28,035 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:28,113 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:28,253 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:28,324 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:28,449 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:28,467 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:28,577 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:28,638 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:28,736 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:28,748 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:28,912 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:28,962 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:29,091 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:29,167 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:29,267 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:29,282 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:29,407 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:29,466 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:29,565 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:29,579 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:29,727 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:29,778 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:29,906 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:29,967 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:30,072 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:30,086 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:30,212 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:30,243 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:30,343 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:30,413 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:30,509 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:30,522 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:30,666 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:30,711 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:30,835 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:30,891 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:30,973 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:30,982 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:31,098 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:31,133 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:31,231 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:31,284 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:31,379 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:31,391 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:31,498 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:31,536 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:31,679 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:31,722 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:31,808 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:31,816 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:31,928 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:31,956 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:32,059 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:32,113 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:32,202 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:32,211 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:32,327 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:32,356 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:32,459 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:32,506 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:32,595 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:32,606 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:32,725 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:32,756 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:32,836 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:32,890 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:32,964 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:32,978 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:33,116 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:33,149 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:33,250 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:33,306 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:33,394 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:33,404 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:33,507 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:33,535 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:33,623 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:33,677 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:33,756 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:33,766 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:33,867 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:33:33,902 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:33:34,000 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Closing the SparkContext . . .
+2019-03-14 01:33:34,097 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Process has been finished!
+2019-03-14 01:35:58,258 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-14 01:35:58,258 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-14 01:35:58,258 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-14 01:36:01,013 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-14 01:36:01,073 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-14 01:36:06,892 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:06,966 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:07,321 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:07,363 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:07,551 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:07,607 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:07,791 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:07,809 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:08,020 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:08,072 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:08,256 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:08,343 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:08,495 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:08,514 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:08,706 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:08,763 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:08,952 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:08,997 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:09,111 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:09,125 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:09,300 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:09,344 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:09,490 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:09,569 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:09,688 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:09,704 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:09,865 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:09,915 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:10,057 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:10,124 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:10,243 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:10,258 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:10,418 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:10,460 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:10,582 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:10,650 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:10,775 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:10,789 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:10,950 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:11,001 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:11,143 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:11,205 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:11,317 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:11,381 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:11,499 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:11,514 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:11,679 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:11,726 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:11,854 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:11,916 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:12,058 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:12,119 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:12,235 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:12,303 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:12,399 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:12,412 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:12,542 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:12,586 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:12,712 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:12,853 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:13,060 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:13,186 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:13,329 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:13,400 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:13,520 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:13,546 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:13,754 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:13,816 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:13,997 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:14,036 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:14,140 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:14,201 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:14,315 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:14,356 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:14,457 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:14,470 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:14,601 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:14,636 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:14,764 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:14,813 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:14,941 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:15,008 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:15,095 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:15,155 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:15,246 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:15,262 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:15,363 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:15,426 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:15,533 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:15,608 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:15,706 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:15,769 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:15,874 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:15,903 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:16,000 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:16,014 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:16,137 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:16,178 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:16,299 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:16,389 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:16,508 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:16,582 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:16,738 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:16,797 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:16,883 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:16,891 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:17,018 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:17,064 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:17,200 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:17,246 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:17,335 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:36:17,395 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:36:17,496 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Closing the SparkContext . . .
+2019-03-14 01:36:18,015 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Process has been finished!
+2019-03-14 01:42:52,739 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-14 01:42:52,739 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-14 01:42:52,739 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-14 01:42:56,423 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-14 01:42:56,472 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-14 01:43:02,195 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:43:02,256 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:44:05,870 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-14 01:44:05,870 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-14 01:44:05,870 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-14 01:44:08,542 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-14 01:44:08,598 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-14 01:44:14,075 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:44:14,146 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 01:45:30,188 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-14 01:45:30,188 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-14 01:45:30,188 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-14 01:45:32,934 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-14 01:45:32,988 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-14 01:45:38,526 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 01:45:38,602 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:44:59,510 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-14 07:44:59,510 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-14 07:44:59,510 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-14 07:45:17,007 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-14 07:45:17,532 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-14 07:45:29,963 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:45:30,042 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:20,606 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-14 07:50:20,606 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-14 07:50:20,607 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-14 07:50:23,510 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-14 07:50:23,563 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-14 07:50:29,899 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:29,979 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:30,360 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:30,414 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:30,602 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:30,681 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:31,471 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:31,582 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:31,827 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:31,886 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:32,094 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:32,165 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:32,367 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:32,404 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:32,590 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:32,663 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:32,829 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:32,885 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:33,059 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:33,109 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:33,348 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:33,399 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:33,544 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:33,610 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:33,751 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:33,795 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:33,951 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:34,028 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:34,161 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:34,235 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:34,398 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:34,455 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:34,611 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:34,689 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:34,807 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:34,825 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:34,951 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:34,998 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:35,145 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:35,224 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:35,342 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:35,355 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:35,496 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:35,528 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:35,630 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:35,671 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:35,797 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:35,812 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:35,945 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:36,007 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:36,132 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:36,197 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:36,303 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:36,315 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:36,419 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:36,486 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:36,597 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:36,663 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:36,750 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:36,761 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:36,950 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:36,996 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:37,111 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:37,196 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:37,306 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:37,322 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:37,443 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:37,479 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:37,598 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:37,658 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:37,772 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:37,788 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:37,925 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:37,961 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:38,078 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:38,151 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:38,275 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:38,290 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:38,415 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:38,458 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:38,576 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:38,618 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:38,736 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:38,752 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:38,892 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:38,923 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:39,018 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:39,054 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:39,178 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:39,193 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:39,296 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:39,351 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:39,473 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:39,523 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:39,619 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:39,631 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:39,766 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:39,797 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:39,870 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:39,919 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:40,010 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:40,024 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:40,154 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:40,180 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:40,285 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:40,323 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:40,411 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:40,460 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:40,541 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:40,567 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:40,656 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 07:50:40,670 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 07:50:40,791 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Closing the SparkContext . . .
+2019-03-14 07:50:41,011 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Process has been finished!
+2019-03-14 08:00:03,224 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-14 08:00:03,224 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-14 08:00:03,224 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-14 08:00:05,878 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-14 08:00:05,927 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-14 08:00:11,564 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:11,620 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:11,962 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:11,981 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:12,148 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:12,190 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:12,406 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:12,456 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:12,700 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:12,755 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:12,914 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:12,989 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:13,142 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:13,158 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:13,338 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:13,390 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:13,546 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:13,598 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:13,771 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:13,831 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:13,967 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:14,043 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:14,169 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:14,185 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:14,355 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:14,396 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:14,541 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:14,586 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:14,761 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:14,809 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:14,940 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:15,009 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:15,140 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:15,156 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:15,298 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:15,330 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:15,480 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:15,524 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:15,706 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:15,740 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:15,896 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:15,945 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:16,062 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:16,079 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:16,214 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:16,262 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:16,379 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:16,440 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:16,552 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:16,566 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:16,698 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:16,772 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:16,899 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:16,924 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:17,051 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:17,128 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:17,214 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:17,224 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:17,345 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:17,385 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:17,496 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:17,554 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:17,664 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:17,676 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:17,827 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:17,911 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:18,019 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:18,030 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:18,155 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:18,198 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:18,330 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:18,357 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:18,528 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:18,584 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:18,712 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:18,779 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:18,885 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:18,900 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:19,023 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:19,083 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:19,191 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:19,201 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:19,317 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:19,386 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:19,475 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:19,488 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:19,581 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:19,637 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:19,755 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:19,819 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:20,070 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:20,082 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:20,200 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:20,252 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:20,343 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:20,355 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:20,487 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:20,519 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:20,591 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:20,600 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:20,710 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:20,744 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:20,835 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:20,892 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:20,969 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:20,978 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:21,064 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:21,113 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:21,187 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:21,197 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:21,285 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:00:21,346 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:00:21,424 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Closing the SparkContext . . .
+2019-03-14 08:00:21,874 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Process has been finished!
+2019-03-14 08:02:02,620 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-14 08:02:02,620 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-14 08:02:02,620 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-14 08:02:05,811 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-14 08:02:05,866 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-14 08:02:11,540 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:02:11,615 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:05:26,513 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:05:27,684 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:31,182 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Starting the load's process [T] . . .
+2019-03-14 08:10:31,182 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating the SparkConf . . .
+2019-03-14 08:10:31,182 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkContext . . .
+2019-03-14 08:10:34,831 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Initializing the SparkSQLContext . . .
+2019-03-14 08:10:34,883 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Creating a dataframe from a CSV file . . .
+2019-03-14 08:10:40,587 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:40,669 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:41,024 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:41,092 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:41,313 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:41,365 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:41,584 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:41,635 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:41,884 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:41,937 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:42,099 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:42,174 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:42,369 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:42,420 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:42,633 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:42,707 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:42,860 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:42,935 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:43,119 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:43,161 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:43,305 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:43,354 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:43,516 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:43,580 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:43,686 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:43,701 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:43,831 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:43,885 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:43,998 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:44,043 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:44,164 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:44,176 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:44,338 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:44,379 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:44,502 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:44,583 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:44,706 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:44,781 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:44,917 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:44,932 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:45,101 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:45,153 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:45,262 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:45,319 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:45,426 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:45,499 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:45,613 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:45,654 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:45,791 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:45,806 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:45,957 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:46,007 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:46,188 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:46,234 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:46,363 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:46,426 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:46,522 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:46,581 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:46,672 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:46,687 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:46,827 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:46,862 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:46,985 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:47,017 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:47,142 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:47,195 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:47,280 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:47,335 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:47,435 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:47,448 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:47,595 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:47,632 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:47,776 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:47,814 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:47,907 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:47,967 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:48,087 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:48,141 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:48,238 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:48,251 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:48,404 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:48,439 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:48,559 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:48,599 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:48,700 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:48,745 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:48,846 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:48,881 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:49,005 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:49,016 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:49,116 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:49,183 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:49,342 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:49,372 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:49,451 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:49,508 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:49,584 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:49,634 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:49,712 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:49,721 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:49,832 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:49,871 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:50,009 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:50,044 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:50,130 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:50,185 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:50,285 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:50,340 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:50,427 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:50,437 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:50,535 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 08:10:50,560 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 08:10:50,652 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Closing the SparkContext . . .
+2019-03-14 08:10:50,829 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Process has been finished!
