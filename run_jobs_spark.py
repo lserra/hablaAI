@@ -2,13 +2,25 @@
 # -*- coding: utf-8 -*-
 
 # ==============================================================================
+#             R U N N I N G    J O B S    A N D    T A S K S
+# ==============================================================================
 # Created by: Laercio Serra (laercio.serra@gmail.com)
-# ETL Spark Application with PySpark -> to be execute with spark-submit
 # Customer: Habla AI (Geanderson Lenz via UpWork)
 # ==============================================================================
-import dt_extract as extract
+# This script executes all jobs/tasks: extraction, transformation, and loading.
+# ==============================================================================
+import dt_extract as extraction
+import dt_transform as transformation
+
+
+def main():
+    """
+    Jobs/tasks to be executed
+    """
+    extraction.run()
+    transformation.run()
 
 
 if __name__ == '__main__':
-    extract.run()
+    main()
 
