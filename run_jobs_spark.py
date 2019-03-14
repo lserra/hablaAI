@@ -11,6 +11,7 @@
 # ==============================================================================
 import dt_extract as extraction
 import dt_transform as transformation
+import dt_load as loading
 
 
 def main():
@@ -19,6 +20,7 @@ def main():
     """
     extraction.run()
     transformation.run()
+    loading.run()
 
 
 if __name__ == '__main__':
