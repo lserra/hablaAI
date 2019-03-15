@@ -68,7 +68,7 @@ Instead of to use asterisks you could use:
 
 But, if you're using the Windows you can use the _**Task Manager**_ application. 
 
-## Executing the Tasks Manually
+## Executing the Task Manually
 This application is compound for 3 modules. Those modules can be executed individually. For example: something went wrong with the extraction's process.
 You can run only this script again. Each module have a script associated with it.
 
