@@ -12,6 +12,8 @@ This application does the following tasks:
 
 ## How it works
 
+![HablaAI Dataflow](/home/lserra/PycharmProjects/hablaAI/image/hablaAI.png "HablaAI Dataflow")
+
 ## Scheduling the Task
 
 It's very easy to schedule a task in Linux.
