@@ -16,14 +16,17 @@ import csv
 import logging
 import logging.handlers
 import os
+# import urllib
 
 from pyspark import SparkConf, SparkContext
-from pyspark.sql import SQLContext
-from pyspark.sql import functions as F
-
 from pyspark.ml import Pipeline
 from pyspark.ml.feature import StringIndexer
-from datetime import datetime, timedelta
+from pyspark.sql import SQLContext
+from pyspark.sql import functions as F
+from pyspark.sql.functions import udf
+from pyspark.sql.types import StringType
+
+from urllib.parse import urlparse, urlsplit
 
 # Defining the immutable values
 data_dir = "/home/lserra/PycharmProjects/hablaAI/data/"
@@ -70,107 +73,124 @@ def create_dataframe(sqlc, csv, logger):
         load(csv)
 
 
+def url_host(col):
+    """
+    TBD
+    """
+    obj = urlparse(col)
+    result = obj.hostname
+
+    return result
+
+
 def all_transformations(logger, df):
     """
     Based on analysis that has been done by Geanderson
     """
     logger.info("Making transformations over all data . . .")
 
-    last_week = (datetime.today() - timedelta(days=7))\
-        .strftime(format='%Y-%m-%d')
-
     transf_a = df.select(
         df['device_family'].alias('device'),
         df['os_family'].alias('os'),
-        df['browser_family'].alias('browser')
-    )
+        df['browser_family'].alias('browser'),
+        df['referrer']
+    ).fillna('0')
 
-    columns = transf_a.columns
+    udf_func = udf(url_host, StringType())
+
+    transf_b = transf_a.withColumn(
+        'referral_label',
+        udf_func(transf_a.referrer)
+    ).fillna('0').drop('referrer')
+
+    columns = transf_b.columns
+
     indexers = [
         StringIndexer(
             inputCol=column,
-            outputCol=column + "_index").fit(transf_a)
+            outputCol=column + "_index").fit(transf_b)
         for column in columns
     ]
 
     pipeline = Pipeline(stages=indexers)
 
-    transf_b = pipeline.fit(transf_a).transform(transf_a)\
-        .drop('device', 'os', 'browser')
+    transf_c = pipeline.fit(transf_b).transform(transf_b)\
+        .drop('device', 'os', 'browser', 'referral_label')
 
-    transf_c = df.select(
+    transf_d = df.select(
         df['date'],
         df['weekday'],
         df['hour'],
         df['customer_binary'],
         df['user_binary'],
         df['url'],
-        df['type_value']
+        df['type_value'],
+        df['referrer']
     )
 
-    df_id1 = transf_b.withColumn("id", F.monotonically_increasing_id())
-    df_id2 = transf_c.withColumn("id", F.monotonically_increasing_id())
+    df_id1 = transf_c.withColumn("id", F.monotonically_increasing_id())
+    df_id2 = transf_d.withColumn("id", F.monotonically_increasing_id())
 
-    transf_d = df_id1.join(df_id2, "id", "inner")
+    transf_e = df_id1.join(df_id2, "id", "inner")
 
-    transf_e = transf_d.groupby('customer_binary', 'user_binary', 'hour') \
+    transf_f = transf_e.groupby('customer_binary', 'user_binary', 'hour') \
         .pivot('type_value') \
         .agg(F.count('url'))
 
-    transf_f = transf_e.select(
-        transf_e['customer_binary'],
-        transf_e['user_binary'],
-        transf_e['hour'],
-        transf_e['2'].alias('product_views_hour'),
-        transf_e['4'].alias('cart_views_hour'),
-        transf_e['5'].alias('purchase_views_hour')
+    transf_g = transf_f.select(
+        transf_f['customer_binary'],
+        transf_f['user_binary'],
+        transf_f['hour'],
+        transf_f['2'].alias('product_views_hour'),
+        transf_f['4'].alias('cart_views_hour'),
+        transf_f['5'].alias('purchase_views_hour')
     ).fillna(0)\
         .drop('customer_binary', 'hour')
 
-    transf_g = transf_f.join(transf_d, 'user_binary', 'inner')\
-        .drop('type_value')
+    transf_h = transf_g.join(transf_e, 'user_binary', 'inner')
 
-    transf_h = transf_g.groupby('customer_binary', 'user_binary', 'hour') \
+    transf_i = transf_h.groupby('customer_binary', 'user_binary', 'hour') \
         .agg(F.count('url').alias("page_views_hour")) \
         .fillna(0) \
         .drop("customer_binary", 'hour')
 
-    transf_i = transf_g.join(transf_h, 'user_binary', 'inner').drop('url')
+    transf_j = transf_i.join(transf_h, 'user_binary', 'inner')
 
-    df_journey = transf_i.where(transf_i.date <= last_week)
-
-    transf_j = df_journey.groupby(
+    transf_k = transf_j.groupby(
         'customer_binary', 'user_binary') \
         .agg(
         F.count("page_views_hour").alias("page_views_journey"),
         F.count("product_views_hour").alias("product_views_journey"),
         F.count("cart_views_hour").alias("cart_views_journey"),
-        F.count("purchase_views_hour").alias("purchase_views_journey")
+        F.count("purchase_views_hour").alias("purchase_views_journey"),
+        F.first("type_value").alias("firstviewtypeloghour")
     ) \
         .fillna(0)\
         .drop('customer_binary')
 
-    transf_j = transf_i.join(transf_j, 'user_binary', 'inner')
+    transf_l = transf_k.join(transf_j, 'user_binary', 'inner')
 
-    transf_k = transf_j.select(
-        transf_j['customer_binary'],
-        transf_j['user_binary'],
-        transf_j['device_index'].alias('device'),
-        transf_j['os_index'].alias('os'),
-        transf_j['browser_index'].alias('browser'),
-        transf_j['weekday'],
-        transf_j['hour'],
-        transf_j['product_views_hour'],
-        transf_j['cart_views_hour'],
-        transf_j['purchase_views_hour'],
-        transf_j['page_views_hour'],
-        transf_j['product_views_journey'],
-        transf_j['cart_views_journey'],
-        transf_j['purchase_views_journey'],
-        transf_j['page_views_journey']
+    transf_m = transf_l.select(
+        transf_l['customer_binary'],
+        transf_l['user_binary'],
+        transf_l['device_index'].alias('device'),
+        transf_l['os_index'].alias('os'),
+        transf_l['browser_index'].alias('browser'),
+        transf_l['referral_label_index'].alias('referral_label'),
+        transf_l['weekday'],
+        transf_l['hour'],
+        transf_l['page_views_hour'],
+        transf_l['product_views_hour'],
+        transf_l['cart_views_hour'],
+        transf_l['purchase_views_hour'],
+        transf_l['page_views_journey'],
+        transf_l['product_views_journey'],
+        transf_l['cart_views_journey'],
+        transf_l['purchase_views_journey'],
+        transf_l['firstviewtypeloghour']
     ).fillna(0)
 
-    return transf_k
+    return transf_m
 
 
 def field_list():
@@ -183,16 +203,18 @@ def field_list():
         'device',
         'os',
         'browser',
+        'referral_label',
         'weekday',
         'hour',
+        'page_views_hour',
         'product_views_hour',
         'cart_views_hour',
         'purchase_views_hour',
-        'page_views_hour',
+        'page_views_journey',
         'product_views_journey',
         'cart_views_journey',
         'purchase_views_journey',
-        'page_views_journey'
+        'firstviewtypeloghour'
     ]
 
 
@@ -213,16 +235,18 @@ def csv_writer(row):
                 'device': row[2],
                 'os': row[3],
                 'browser': row[4],
-                'weekday': row[5],
-                'hour': row[6],
-                'product_views_hour': row[7],
-                'cart_views_hour': row[8],
-                'purchase_views_hour': row[9],
-                'page_views_hour': row[10],
-                'product_views_journey': row[11],
-                'cart_views_journey': row[12],
-                'purchase_views_journey': row[13],
-                'page_views_journey': row[14]
+                'referral_label': row[5],
+                'weekday': row[6],
+                'hour': row[7],
+                'page_views_hour': row[8],
+                'product_views_hour': row[9],
+                'cart_views_hour': row[10],
+                'purchase_views_hour': row[11],
+                'page_views_journey': row[12],
+                'product_views_journey': row[13],
+                'cart_views_journey': row[14],
+                'purchase_views_journey': row[15],
+                'firstviewtypeloghour': row[16]
             })
 
 
