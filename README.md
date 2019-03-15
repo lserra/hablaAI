@@ -1,16 +1,18 @@
 # hablaAI
 
-ELT/ETL Tasks using Apache Spark and PySpark.
+ELT/ETL jobs and tasks using Apache Spark and PySpark.
 
 ## The Solution
 
 This application does the following tasks:
 
-- **E**xtraction => extract all data from JSON file and makes a few conversion and cleanup.
-- **T**ransformation => makes a lot of stuff with all those data like enrichment, aggregation, and so on.
-- **L**oad => load/save all data to be storage in other format.
+- **E**_xtraction_ => extract all data from JSON file and makes a few conversion and cleanup.
+- **T**_ransformation_ => makes a lot of stuff with all those data like enrichment, aggregation, and so on.
+- **L**_oad_ => load/save all data to be storage in other format.
 
-## How does it work?
+## How it works?
+
+
 
 ## Scheduling the Task
 
@@ -71,12 +73,62 @@ But, if you're using the Windows you can use the _**Task Manager**_ application.
 ## Executing the Tasks Manually
 
 ## Visualizing the Log
+When the application is running is generated a log of all activities.
+And this log is stored in a file "_**ETL_hablaAI.log**_" that can be found in the following path:
+
+```shell
+$ cd ../path/application/hablaAI/logs/
+```
+
+To visualize the 10 first rows from this file, you can use the following command in the Linux terminal:
+
+```shell
+hablaAI/logs$ head ETL_hablaAI.log
+```
+
+To visualize the 10 last rows from this file, you can use the following command in the Linux terminal:
+
+```shell
+hablaAI/logs$ tail ETL_hablaAI.log
+```
+
+```csv
+2019-03-14 22:47:39,969 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 22:47:40,033 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 22:47:40,107 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 22:47:40,119 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 22:47:40,226 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 22:47:40,303 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 22:47:40,390 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Filtering rows by customer . . .
+2019-03-14 22:47:40,424 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Saving all data by customer to CSV file . . .
+2019-03-14 22:47:40,524 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Closing the SparkContext . . .
+2019-03-14 22:47:40,838 - ETL_HablaAI - /home/lserra/PycharmProjects/hablaAI/dt_load.py - INFO - Process has been finished!
+
+```
+
+Also, you can open this file using the following command in the Linux terminal:
+
+```shell
+hablaAI/logs$ nano ETL_hablaAI.log 
+```
 
 ## Requirements
 
+There are a few python libraries that must be installed before to run this application.
+You can find out all the libraries specified into the file "_**requirements.txt**_".
+To install those libraries you can run the following command in the Linux terminal:
+
+```shell
+$ pip install -r requirements.txt 
+```  
+
 ## Issues
+No issues until the moment.
+But if you find out any issues, please contact us.
 
 ## Next Steps
+Refactoring some pieces of the code to improve better performance, and makes easier 
+the maintenance using OO programming. 
 
 ## About Me
 
@@ -85,6 +137,6 @@ But, if you're using the Windows you can use the _**Task Manager**_ application.
 
 ## Support
 
-- _suporte@datafresh.com.br_
+- [suporte@datafresh.com.br](suporte@datafresh.com.br)
 
  
