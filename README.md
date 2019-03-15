@@ -12,7 +12,7 @@ This application does the following tasks:
 
 ## How it works
 
-![HablaAI Dataflow](hablaAI/hablaAI.png "HablaAI Dataflow")
+![HablaAI Dataflow](https://github.com/lserra/hablaAI/blob/master/hablaAI/hablaAI.png "HablaAI Dataflow")
 
 ## Scheduling the Task
 
