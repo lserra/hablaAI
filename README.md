@@ -10,14 +10,12 @@ This application does the following tasks:
 - **T**_ransformation_ => makes a lot of stuff with all those data like enrichment, aggregation, and so on.
 - **L**_oad_ => load/save all data to be storage in other format.
 
-## How it works?
-
-
+## How it works
 
 ## Scheduling the Task
 
 It's very easy to schedule a task in Linux.
- 
+
 Linux provides a scheduling utility called _**crontab**_. This utility allows that scripts can be run periodically. 
 You can run any command, executable or script file at any time and day you require, and as many times as you like. 
 
@@ -65,12 +63,24 @@ Also, you can use any of the following for configuring how often to run a comman
 Instead of to use asterisks you could use:
 
 ```shell
-@hourly /path/execute/this/script.py
+@hourly ../path/application/hablaAI/run_jobs_spark.py
 ```
 
 But, if you're using the Windows you can use the _**Task Manager**_ application. 
 
 ## Executing the Tasks Manually
+This application is compound for 3 modules. Those modules can be executed individually. For example: something went wrong with the extraction's process.
+You can run only this script again. Each module have a script associated with it.
+
+- extraction : you can run the script "_**dt_extract.py**_"
+- transformation : you can run the script "_**dt_transform.py**_"
+- loading : you can run the script "_**dt_load.py**_"
+
+To run anyone, you can use the following command in the Linux terminal:
+
+```shell
+$ python ../path/application/hablaAI/dt_extract.py
+```
 
 ## Visualizing the Log
 When the application is running is generated a log of all activities.
