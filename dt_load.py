@@ -60,16 +60,18 @@ def field_list():
         'device',
         'os',
         'browser',
+        'referral_label',
         'weekday',
         'hour',
+        'page_views_hour',
         'product_views_hour',
         'cart_views_hour',
         'purchase_views_hour',
-        'page_views_hour',
+        'page_views_journey',
         'product_views_journey',
         'cart_views_journey',
         'purchase_views_journey',
-        'page_views_journey'
+        'firstviewtypeloghour'
     ]
 
 
@@ -86,19 +88,21 @@ def csv_writer(row, data_path_output):
         writer.writerow(
             {
                 'customer_binary': row[0],
-                'device': row[2],
-                'os': row[3],
-                'browser': row[4],
+                'device': row[1],
+                'os': row[2],
+                'browser': row[3],
+                'referral_label': row[4],
                 'weekday': row[5],
                 'hour': row[6],
-                'product_views_hour': row[7],
-                'cart_views_hour': row[8],
-                'purchase_views_hour': row[9],
-                'page_views_hour': row[10],
-                'product_views_journey': row[11],
-                'cart_views_journey': row[12],
-                'purchase_views_journey': row[13],
-                'page_views_journey': row[14]
+                'page_views_hour': row[7],
+                'product_views_hour': row[8],
+                'cart_views_hour': row[9],
+                'purchase_views_hour': row[10],
+                'page_views_journey': row[11],
+                'product_views_journey': row[12],
+                'cart_views_journey': row[13],
+                'purchase_views_journey': row[14],
+                'firstviewtypeloghour': row[15]
             })
 
 
